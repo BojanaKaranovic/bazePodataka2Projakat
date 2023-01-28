@@ -1,13 +1,14 @@
 # Baze Podataka 2 Projakat
 
-## Bojana Karanović RA 130/2019
+### Bojana Karanović RA 130/2019
 
 Projekat iz predmeta Baze podataka 2, FTN.
 
-### Neophodni alati
+### Korišćeni alati
 - [Oracle database](https://www.oracle.com/database/technologies/oracle-database-software-downloads.html)
 - [SQL developer](https://www.oracle.com/database/sqldeveloper/technologies/download/)
 - [Data modeler](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/)
+
 
 Projekat je sačinjen od
 - [Specifikacija informacionog sistema](https://github.com/BojanaKaranovic/bazePodataka2Projakat/blob/main/baze2_projekat_Bojana_Karanovic_RA130_2019/Specifikacija%20informacionog%20sistema%20firme%20koja%20se%20bavi%20koznom%20galanterijom.pdf) 
@@ -22,3 +23,6 @@ Projekat je sačinjen od
 - Fajlovi za data modeler
   - [dmd fajl](https://github.com/BojanaKaranovic/bazePodataka2Projakat/blob/main/baze2_projekat_Bojana_Karanovic_RA130_2019/dataModeler1.dmd)
   - [data modeler](https://github.com/BojanaKaranovic/bazePodataka2Projakat/tree/main/baze2_projekat_Bojana_Karanovic_RA130_2019/dataModeler1)
+  
+  Korisni linkovi
+    - [kreiranje nove konekcije](https://www.youtube.com/watch?v=58V-w3buWm4&ab_channel=ChituOkoli)
