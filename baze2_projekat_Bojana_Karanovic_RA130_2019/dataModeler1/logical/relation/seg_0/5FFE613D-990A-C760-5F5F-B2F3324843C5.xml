@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nabavlja" directorySegmentName="seg_0" id="5FFE613D-990A-C760-5F5F-B2F3324843C5">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:52:55 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>456759C9-9800-D48D-C73B-7397BA086B03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46263B5C-3E30-AA6B-4E73-BB091B6E0F3F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

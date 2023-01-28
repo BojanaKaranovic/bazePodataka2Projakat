@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sprema" directorySegmentName="seg_0" id="5C4602A1-8755-A865-E340-7F1EB467E26D">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:08:48 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7C0ADD41-6A54-793E-1FB7-30EBCB6A231D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7ECCDB1A-BDAB-64A5-E32D-D4F798D6F71B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

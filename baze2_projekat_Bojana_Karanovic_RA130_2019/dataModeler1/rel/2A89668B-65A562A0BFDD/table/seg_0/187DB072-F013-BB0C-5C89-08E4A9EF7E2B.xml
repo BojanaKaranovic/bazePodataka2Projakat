@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="187DB072-F013-BB0C-5C89-08E4A9EF7E2B" name="Pravi">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Krojac_idRad" id="3665A8B2-12D2-A2DA-D5E9-815395404AFF">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC4A92E5-B556-1310-9D33-32CEA11E6FD1" referredColumn="03CBE577-16AA-D6C8-D1E1-0371C1A519D8"/>
+</associations>
+</Column>
+<Column name="Proizvod_idPro" id="27FE250D-3A5C-E7CF-7335-ACD6B26B89A0">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BCB6B83-CE1D-30BA-3BBD-DEE70DA7BDAC" referredColumn="CC5D20C6-27DA-B53F-D88E-BF32088BEC43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCDAFAC0-EB45-6F02-4890-D66585FB6065" name="Pravi_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3665A8B2-12D2-A2DA-D5E9-815395404AFF"/>
+<colUsage columnID="27FE250D-3A5C-E7CF-7335-ACD6B26B89A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2185F1D8-58DE-C1EE-8C80-3B94CA81BC59" name="Pravi_Krojac_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>9A70D18E-94D7-C1DA-C5F8-08A295FF2A41</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3665A8B2-12D2-A2DA-D5E9-815395404AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A41CC6AF-0A9D-0947-C338-D404DEBDCB7F" name="Pravi_Proizvod_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>9A70D18E-94D7-C1DA-C5F8-08A295FF2A41</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27FE250D-3A5C-E7CF-7335-ACD6B26B89A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

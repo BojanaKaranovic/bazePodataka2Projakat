@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD57FBA3-C995-E2A1-4087-C5197F25AC5B" name="Deo">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:34:50 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDeo" id="C0431F23-6E52-72EF-876B-BD541FFAE8FD">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:35:02 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivDeo" id="2973E759-AA99-2B43-CA6C-F79878A78038">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:35:22 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F884808-1FE0-C6CC-98CA-BCB0E39C1F3D" name="Deo PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:35:17 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0431F23-6E52-72EF-876B-BD541FFAE8FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

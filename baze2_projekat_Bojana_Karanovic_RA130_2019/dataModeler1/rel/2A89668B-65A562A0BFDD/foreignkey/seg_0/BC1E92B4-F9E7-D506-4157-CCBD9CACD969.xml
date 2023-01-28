@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC1E92B4-F9E7-D506-4157-CCBD9CACD969" containerWithKeyObject="2EDB26C7-9099-FC27-A94F-355D40BD6D88" localFKIndex="331FF5A7-2D4E-B9B1-E1B4-F530B0F309B8" name="Sadrzi_Deo_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<generatorID>6AC5963D-19BB-7A82-888C-67D50D3D89B2</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<referredTableLongName>Deo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83829FB7-1483-A301-F9A1-BD16AC834E0E</referredTableID>
+<keyObject>CAB1DA40-5A81-523A-AD9B-FA0A46A4D1E8</keyObject>
+<referredKeyID>CAB1DA40-5A81-523A-AD9B-FA0A46A4D1E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDeo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

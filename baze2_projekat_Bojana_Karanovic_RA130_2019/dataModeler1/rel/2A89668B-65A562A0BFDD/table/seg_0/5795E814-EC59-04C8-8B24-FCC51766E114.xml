@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5795E814-EC59-04C8-8B24-FCC51766E114" name="Nabavlja">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dobavljac_idRad" id="9DBB82C8-25BA-BE4D-DE28-5988690E8278">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71A738E5-33D9-312D-1CAD-BD0B764B77C3" referredColumn="E5EECAB0-BFA0-4A58-AFCA-66BEB922DB8E"/>
+</associations>
+</Column>
+<Column name="Sirovina_idSir" id="BE3248B9-D6BB-2A86-45CD-93893655EBCA">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="160A8FB4-AC09-DE7E-AAB7-E04ECF405F56" referredColumn="A20B0F95-5F05-ED13-D045-613F2704310C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="913F2C1C-28F1-346B-CD8F-23DB904F21D4" name="Nabavlja_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DBB82C8-25BA-BE4D-DE28-5988690E8278"/>
+<colUsage columnID="BE3248B9-D6BB-2A86-45CD-93893655EBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE9E48DF-3DA4-DFF2-4A7E-F14B3D30FCD2" name="Nabavlja_Dobavljac_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>5FFE613D-990A-C760-5F5F-B2F3324843C5</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DBB82C8-25BA-BE4D-DE28-5988690E8278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA92A2B8-9324-0E9B-FA65-92FAA8EB890F" name="Nabavlja_Sirovina_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>5FFE613D-990A-C760-5F5F-B2F3324843C5</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE3248B9-D6BB-2A86-45CD-93893655EBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

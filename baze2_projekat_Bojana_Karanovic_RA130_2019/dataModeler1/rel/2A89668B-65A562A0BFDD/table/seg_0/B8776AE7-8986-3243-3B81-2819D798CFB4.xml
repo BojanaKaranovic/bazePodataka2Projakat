@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8776AE7-8986-3243-3B81-2819D798CFB4" name="Prodavnica">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>B3F724DD-34BF-670C-CC8C-CA3C3169B7D1</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProd" id="D1FFF4C8-0C7B-A7B8-85EA-A45983B576E5">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>0B937282-5748-28B4-ED22-C53AA9F0055E</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazProd" id="634CCB2B-C530-C82F-77EA-015204960D97">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>B243542A-2C1F-4DF7-C11C-86E9F7D5BAE6</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adrProd" id="6B2766B5-2384-846F-D98A-5F9C8A7D6EF8">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>C78130EA-A2D2-EA49-77A3-CC956BB70AA2</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brTel" id="8A1FA424-FC38-7C8F-872C-CAAF0864CBE7">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>8D2AD3D5-3D78-474A-75D1-AC2DB57A3374</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D7CAEBF-C792-5FA5-D329-2583A37D96EF" name="Prodavnica_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>82E127F4-AA58-CE88-A04E-28357CB23EBB</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1FFF4C8-0C7B-A7B8-85EA-A45983B576E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

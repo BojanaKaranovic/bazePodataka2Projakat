@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6009652E-EFB3-32BB-BE65-71E6ED30A31A" name="Sirovina">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>46263B5C-3E30-AA6B-4E73-BB091B6E0F3F</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSir" id="A20B0F95-5F05-ED13-D045-613F2704310C">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>CCE7A09A-BC4D-BA62-BA83-16DDA46ED837</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazivSir" id="56638C24-8954-1890-4121-97E9C744C071">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>CC2B26AE-F30D-BDF7-343D-EA176A9493C6</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D798454-5574-7D05-E739-C745120924E9" name="Sirovina_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>52C6C505-4C4E-8BCB-67BE-2BB28AC61F49</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A20B0F95-5F05-ED13-D045-613F2704310C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="076E908C-E1F7-DB7D-40D0-E8835F692AD7" containerWithKeyObject="83D4D310-95F3-86E4-F8B5-25E8A7BD155A" localFKIndex="C70BC955-C439-546D-F699-1BEE8A1F841A" name="Spremac_Radnik_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>760A8919-FF60-F26B-EDDD-1F4B79A606E9</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>124D10E6-E840-C98B-ACF1-44815F211B0F</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EAA4C93-F54A-B54F-F12B-847E511A1561</referredTableID>
+<keyObject>AA95FF86-4B3F-59B8-578F-B4C5E79CCB82</keyObject>
+<referredKeyID>AA95FF86-4B3F-59B8-578F-B4C5E79CCB82</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idRad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Spremac</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

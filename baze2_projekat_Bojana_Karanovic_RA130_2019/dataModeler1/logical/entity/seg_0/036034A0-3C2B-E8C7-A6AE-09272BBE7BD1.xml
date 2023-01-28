@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="036034A0-3C2B-E8C7-A6AE-09272BBE7BD1" name="Firma">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:29:55 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idFirm" id="94CDAA65-0146-F1C1-398B-CA230231DCAF">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:30:04 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivFirm" id="13190F91-DD4B-8D5A-D4CC-EB6B656A5031">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:31:42 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adrFirm" id="3CB6EC4E-B729-FC45-5D7F-427B6504C076">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:32:30 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4FB7E6F-1EF5-182E-B9A6-41A048337107" name="idFrim">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:32:15 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>94CDAA65-0146-F1C1-398B-CA230231DCAF</newElementsIDs>
+<usedAttributes>
+<attributeRef>94CDAA65-0146-F1C1-398B-CA230231DCAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

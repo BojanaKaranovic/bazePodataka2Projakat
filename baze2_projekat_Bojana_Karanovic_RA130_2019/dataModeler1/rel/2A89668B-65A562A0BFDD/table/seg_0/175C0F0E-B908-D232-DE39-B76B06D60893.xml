@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="175C0F0E-B908-D232-DE39-B76B06D60893" name="Prodavac">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>2A5B537A-D928-0E54-A828-0C5C262213E4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRad" id="F3023171-F5DF-8EF6-3780-31B5CCAC252E">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>16A60550-69E2-4BF4-0234-D6A82A503262</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2827D44A-F438-A9FE-2FA7-BDC8B1CBA2B4" referredColumn="37FCD2F3-29A5-33AF-5F63-1A111604682B"/>
+</associations>
+</Column>
+<Column name="email" id="A1BA05B5-70A1-49A3-A7A6-12F4E2939BA1">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>48A37666-0378-2301-E282-A7E0280DEFB4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodavnica_idProd" id="D6EBB318-2B83-24A6-2315-0779BA83254D">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>53B5C6B1-A78F-687F-8551-64D3824F1BE7</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1796F31-8F5D-605D-E1E9-34E90BD1D5E9" referredColumn="D1FFF4C8-0C7B-A7B8-85EA-A45983B576E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF77DBB6-7089-067B-439A-A9F2A7407D33" name="Prodavac_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>2D3A2361-CDFC-69F9-D470-5215B1F2DC4F</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3023171-F5DF-8EF6-3780-31B5CCAC252E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7BA5AC1-A696-F2D6-287B-3845AF160357" name="Prodavac_Radnik_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>DF2836E8-4505-B54C-E045-E4F3531ECE99</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3023171-F5DF-8EF6-3780-31B5CCAC252E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="579EE3EC-8E3E-E6B8-DBCC-625A656632CB" name="Prodavac_Prodavnica_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:39:48 UTC</createdTime>
+<generatorID>650AB5CA-DBDF-51E1-D4A3-BC08D6965731</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6EBB318-2B83-24A6-2315-0779BA83254D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

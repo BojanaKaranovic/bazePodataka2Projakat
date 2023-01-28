@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D8B94A9-D14E-069A-C735-E6B3C0A9A650" name="Racun">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:00:47 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRac" id="32CA913E-0E87-A0B4-857F-C72557CF6253">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:01:08 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRad" id="247126DF-42FA-4366-6B96-EEEBC32D6874">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:01:52 UTC</createdTime>
+<generatorID>A66649A8-A920-1087-171A-62B1D5B3F3B4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<referedAttribute>16A60550-69E2-4BF4-0234-D6A82A503262</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="828A3D03-8DC8-F9B2-C7B4-6C216532C536" name="Racun PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:01:25 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32CA913E-0E87-A0B4-857F-C72557CF6253</attributeRef>
+<attributeRef>247126DF-42FA-4366-6B96-EEEBC32D6874</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

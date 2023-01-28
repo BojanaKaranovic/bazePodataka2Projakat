@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Obradjuje" directorySegmentName="seg_0" id="A66649A8-A920-1087-171A-62B1D5B3F3B4">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:01:52 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<sourcePk>2D3A2361-CDFC-69F9-D470-5215B1F2DC4F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2A5B537A-D928-0E54-A828-0C5C262213E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D8B94A9-D14E-069A-C735-E6B3C0A9A650</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

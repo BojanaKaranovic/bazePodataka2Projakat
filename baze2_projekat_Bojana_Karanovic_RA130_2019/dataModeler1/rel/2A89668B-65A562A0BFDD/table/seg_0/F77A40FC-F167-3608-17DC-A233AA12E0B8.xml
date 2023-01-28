@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F77A40FC-F167-3608-17DC-A233AA12E0B8" name="Sastoji">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Deo_idDeo" id="C908B1F8-22DB-B010-27BE-C26DED61B01F">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F2829C2-1961-9398-D380-9C60F2D8192D" referredColumn="DEC60B93-6DAA-982A-C75D-FA0D6E9FACA3"/>
+</associations>
+</Column>
+<Column name="Proizvod_idPro" id="C52970CA-CB0A-0B16-BBED-08B7840B436C">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6E92EE8-F260-BC3D-ECAB-8736C6D03A54" referredColumn="CC5D20C6-27DA-B53F-D88E-BF32088BEC43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D29F1BB-206C-E750-29D0-F31461C5C6DB" name="Sastoji_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C908B1F8-22DB-B010-27BE-C26DED61B01F"/>
+<colUsage columnID="C52970CA-CB0A-0B16-BBED-08B7840B436C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0793AC0-4A4C-72A5-D659-2A56C9F33BBB" name="Sastoji_Deo_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<generatorID>D46482C8-19FF-90B6-ECDE-BC3C1C96C7E1</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C908B1F8-22DB-B010-27BE-C26DED61B01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E458B61-6D55-9376-C44B-E3D6D81F64D3" name="Sastoji_Proizvod_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<generatorID>D46482C8-19FF-90B6-ECDE-BC3C1C96C7E1</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C52970CA-CB0A-0B16-BBED-08B7840B436C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

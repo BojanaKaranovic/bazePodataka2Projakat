@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDD382F6-9279-868D-8E00-2ED7DAD820D6" name="Racun">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>0D8B94A9-D14E-069A-C735-E6B3C0A9A650</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRac" id="5D5059F5-9BA7-611E-AE66-E9B3C91D7094">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>32CA913E-0E87-A0B4-857F-C72557CF6253</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodavac_idRad" id="B0FBFE7B-2EDB-FEB0-A86B-248D6C8203DF">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>247126DF-42FA-4366-6B96-EEEBC32D6874</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5139E8E0-DB73-35B3-2667-CEDE45B1AF72" referredColumn="F3023171-F5DF-8EF6-3780-31B5CCAC252E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3421468E-B683-3293-A9C4-8869F258854C" name="Racun_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>828A3D03-8DC8-F9B2-C7B4-6C216532C536</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D5059F5-9BA7-611E-AE66-E9B3C91D7094"/>
+<colUsage columnID="B0FBFE7B-2EDB-FEB0-A86B-248D6C8203DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD0D484D-04A7-0425-3F44-A974A85022D3" name="Racun_Prodavac_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>A66649A8-A920-1087-171A-62B1D5B3F3B4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0FBFE7B-2EDB-FEB0-A86B-248D6C8203DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

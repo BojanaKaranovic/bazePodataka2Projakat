@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39E27EC6-E581-6167-C2CD-3743B5AB10B8" name="Nudi">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>944C1934-9778-249F-EAF6-C22DAD5B9722</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cena" id="A693F6E5-46D7-8D06-D0FC-5219803BFA37">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>4EF6E780-1BC7-49DF-2613-7CD249A19BDA</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proizvod_idPro" id="ACB6FB93-6B7A-89A1-3032-772130A205AE">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>AA409A1E-651B-4204-7E61-0655A881DD75</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55DB5035-AA25-81EB-770B-D618DD7B082E" referredColumn="CC5D20C6-27DA-B53F-D88E-BF32088BEC43"/>
+</associations>
+</Column>
+<Column name="Prodavnica_idProd" id="105BF033-78C1-7119-D80F-A151A6CF9B83">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>02635E5B-6785-D0C6-8394-FCC4F848319D</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7413A7DA-5B6E-6C59-CD26-CF236A4418F2" referredColumn="D1FFF4C8-0C7B-A7B8-85EA-A45983B576E5"/>
+</associations>
+</Column>
+<Column name="Nudi_ID" id="4C8DEF92-8D68-5739-5520-3FD2E9E77FD0">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D97EEB75-6D88-55F2-1C4D-2F28CB0724C8" name="Nudi_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4C8DEF92-8D68-5739-5520-3FD2E9E77FD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BE52D0A-11EF-F8EA-188D-3E03701E166B" name="Nudi_Prodavnica_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>4347C684-8F54-45A8-B5F9-6EDB7D4D0E9E</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="105BF033-78C1-7119-D80F-A151A6CF9B83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BE4B848-62A1-7D98-83AB-6C1E87187768" name="Nudi_Proizvod_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>313DAFD6-77B0-5684-B44C-8253A040AFB5</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACB6FB93-6B7A-89A1-3032-772130A205AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

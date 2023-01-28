@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F9A7737-A3BB-1489-9934-BB2BAD4E4A64" name="Sprema">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Spremac_idRad" id="7F90154C-6FF2-4A98-280D-6F43D30D4267">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEC3D9A8-C54D-8D75-BAE1-6994C0CD4544" referredColumn="28344F5D-1F5F-A9B2-A3C0-9CD95A0D1C86"/>
+</associations>
+</Column>
+<Column name="Prostorija_idPros" id="48F30BB2-F018-5CA1-F3A6-B7581ABE064E">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B324F0B9-9C52-2028-462C-C1A85163E704" referredColumn="FC733BCD-4404-6276-564A-0B8904F30094"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E9F6190-08BB-B7FE-BA2F-01B9E380FFBD" name="Sprema_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F90154C-6FF2-4A98-280D-6F43D30D4267"/>
+<colUsage columnID="48F30BB2-F018-5CA1-F3A6-B7581ABE064E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B05022C1-972D-1025-BA4A-47C4DA99018B" name="Sprema_Spremac_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<generatorID>5C4602A1-8755-A865-E340-7F1EB467E26D</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F90154C-6FF2-4A98-280D-6F43D30D4267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F68D2528-54A4-3AC2-117F-3F777983C9FD" name="Sprema_Prostorija_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<generatorID>5C4602A1-8755-A865-E340-7F1EB467E26D</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48F30BB2-F018-5CA1-F3A6-B7581ABE064E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

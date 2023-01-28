@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="944C1934-9778-249F-EAF6-C22DAD5B9722" name="Nudi">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:55:26 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cena" id="4EF6E780-1BC7-49DF-2613-7CD249A19BDA">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:55:38 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPro" id="AA409A1E-651B-4204-7E61-0655A881DD75">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:57:06 UTC</createdTime>
+<generatorID>313DAFD6-77B0-5684-B44C-8253A040AFB5</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<referedAttribute>F1F978B8-618D-2077-EB53-A5D8259AF3B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProd" id="02635E5B-6785-D0C6-8394-FCC4F848319D">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:58:45 UTC</createdTime>
+<generatorID>4347C684-8F54-45A8-B5F9-6EDB7D4D0E9E</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<referedAttribute>0B937282-5748-28B4-ED22-C53AA9F0055E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

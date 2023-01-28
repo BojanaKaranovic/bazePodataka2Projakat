@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E706689-C449-879A-7E01-015CFC485C1F" name="Stavka">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>660E7042-EE34-54B9-614F-97CB81F81C44</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rbrSt" id="E31051C5-E9B4-1503-F5BA-4D834F523D66">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>0AA41FB3-A914-7CDF-C537-D461ADDEDF67</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="CAA31E20-1CB2-56EA-EFAA-6A3CE698C249">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>3CDDA485-B9FC-B4B0-530C-CDB408E35F6E</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun_idRac" id="18CDFFBA-C952-387C-F869-EE0C02AFE08D">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>6A1688CE-F437-4156-863B-A19D1FEB57B5</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6CFF7AD-E4EF-CDA1-88FC-4F67F8E34883" referredColumn="5D5059F5-9BA7-611E-AE66-E9B3C91D7094"/>
+</associations>
+</Column>
+<Column name="Racun_Prodavac_idRad" id="7B40AAB7-9249-8FE5-A412-F84C91EA83C7">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>00C05854-D24E-CB39-25FE-A9E6DD58AFA4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6CFF7AD-E4EF-CDA1-88FC-4F67F8E34883" referredColumn="B0FBFE7B-2EDB-FEB0-A86B-248D6C8203DF"/>
+</associations>
+</Column>
+<Column name="Nudi_Nudi_ID" id="323C108F-834E-55D3-32EB-9477D60C182D">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63D5D9FE-41F4-E7C4-7163-3F9744D774EA" referredColumn="4C8DEF92-8D68-5739-5520-3FD2E9E77FD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4E36D8F-017F-C3C6-21F1-CF6617F82F1A" name="Stavka_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>988B6E6C-C658-9D8E-AD8E-52F202F81808</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E31051C5-E9B4-1503-F5BA-4D834F523D66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7F8B1CF-240D-4EDD-365D-DD805F848BFE" name="Stavka_Nudi_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>0EB22204-F26E-2A29-F16F-A0476B970ED2</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323C108F-834E-55D3-32EB-9477D60C182D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66C73F2E-FEB5-17F7-760F-07CE76DF8573" name="Stavka_Racun_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>CE0E7902-2124-BA4F-7A06-06045463A8F7</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CDFFBA-C952-387C-F869-EE0C02AFE08D"/>
+<colUsage columnID="7B40AAB7-9249-8FE5-A412-F84C91EA83C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

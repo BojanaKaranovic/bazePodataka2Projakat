@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pododelenje" directorySegmentName="seg_0" id="CD69C180-0E1E-3CCA-DD05-75496B56E09C">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:04:12 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<targetPk>09FA301B-09EA-58CD-8BC7-043733B2D2AB</targetPk>
+<identifying>false</identifying>
+<nameOnSource>jeNadredjen</nameOnSource>
+<nameOnTarget>jePodredjen</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>28DD4263-A63B-5EB3-C9E7-7853EE590FE6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28DD4263-A63B-5EB3-C9E7-7853EE590FE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

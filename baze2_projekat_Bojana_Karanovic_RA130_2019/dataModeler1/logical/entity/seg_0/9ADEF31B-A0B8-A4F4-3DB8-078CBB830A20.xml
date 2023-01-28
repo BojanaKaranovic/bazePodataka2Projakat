@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9ADEF31B-A0B8-A4F4-3DB8-078CBB830A20" name="Radnik">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:44:06 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>D217C8F9-0788-D793-59E0-B3BB161C7B97</discriminatorAttributeID>
+<discriminatorColumnName>TipRadnika</discriminatorColumnName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRad" id="16A60550-69E2-4BF4-0234-D6A82A503262">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:44:06 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imeRad" id="2174912E-83B6-3AC7-1A64-365223B3A9FA">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:44:06 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="przRad" id="E6E3F816-F80D-102D-757C-3B83A1662990">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:44:06 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipRad" id="D217C8F9-0788-D793-59E0-B3BB161C7B97">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:44:06 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2482884E-9958-14F5-A5DE-1EFF3597FF4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPosl" id="85D3F360-C2A5-36FA-0F41-2D9AE4C1A561">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:50:05 UTC</createdTime>
+<generatorID>C9E5A538-D51D-70BE-6A46-919A864D6041</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>86C751E5-4D5A-C527-0A05-82031479442E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D3A2361-CDFC-69F9-D470-5215B1F2DC4F" name="Radnik PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:44:06 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16A60550-69E2-4BF4-0234-D6A82A503262</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

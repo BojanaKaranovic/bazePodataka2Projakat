@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NalaziSe" directorySegmentName="seg_0" id="CE0E7902-2124-BA4F-7A06-06045463A8F7">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:06:18 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<sourcePk>828A3D03-8DC8-F9B2-C7B4-6C216532C536</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D8B94A9-D14E-069A-C735-E6B3C0A9A650</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>660E7042-EE34-54B9-614F-97CB81F81C44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

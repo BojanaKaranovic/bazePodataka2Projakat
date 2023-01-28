@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6CFF7AD-E4EF-CDA1-88FC-4F67F8E34883" containerWithKeyObject="3E706689-C449-879A-7E01-015CFC485C1F" localFKIndex="66C73F2E-FEB5-17F7-760F-07CE76DF8573" name="Stavka_Racun_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>CE0E7902-2124-BA4F-7A06-06045463A8F7</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<referredTableLongName>Racun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDD382F6-9279-868D-8E00-2ED7DAD820D6</referredTableID>
+<keyObject>3421468E-B683-3293-A9C4-8869F258854C</keyObject>
+<referredKeyID>3421468E-B683-3293-A9C4-8869F258854C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idRac,Prodavac_idRad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

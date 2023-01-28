@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83D4D310-95F3-86E4-F8B5-25E8A7BD155A" name="Spremac">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>7C0ADD41-6A54-793E-1FB7-30EBCB6A231D</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRad" id="28344F5D-1F5F-A9B2-A3C0-9CD95A0D1C86">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>16A60550-69E2-4BF4-0234-D6A82A503262</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="076E908C-E1F7-DB7D-40D0-E8835F692AD7" referredColumn="37FCD2F3-29A5-33AF-5F63-1A111604682B"/>
+</associations>
+</Column>
+<Column name="brTel" id="6DB1D711-95A0-807F-64D8-DDD334A9D2C5">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>7E903EDE-481E-53FE-5A6A-64533BEAEC4B</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96381D71-F9E7-197A-C6FF-B570799227E4" name="Spremac_PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>2D3A2361-CDFC-69F9-D470-5215B1F2DC4F</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28344F5D-1F5F-A9B2-A3C0-9CD95A0D1C86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C70BC955-C439-546D-F699-1BEE8A1F841A" name="Spremac_Radnik_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>760A8919-FF60-F26B-EDDD-1F4B79A606E9</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28344F5D-1F5F-A9B2-A3C0-9CD95A0D1C86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

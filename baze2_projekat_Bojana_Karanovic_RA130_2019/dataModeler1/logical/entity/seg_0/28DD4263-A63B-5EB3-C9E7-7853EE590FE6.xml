@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28DD4263-A63B-5EB3-C9E7-7853EE590FE6" name="Odelenje">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:45:02 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idOdelenja" id="AD7DE5D7-77D4-5BCF-9688-E0DF076AE076">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:45:24 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivOdel" id="37090B0F-9BD1-8D89-6579-F7F409D49CF2">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:46:10 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idOdelenja1" id="1F7661BC-857C-E07C-3AD8-73AF7969C488">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:04:12 UTC</createdTime>
+<generatorID>CD69C180-0E1E-3CCA-DD05-75496B56E09C</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AD7DE5D7-77D4-5BCF-9688-E0DF076AE076</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPosl" id="BA9AB18B-5B0E-440E-F37A-E12ABBA6D5F7">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 19:09:25 UTC</createdTime>
+<generatorID>AE089CBE-0289-030E-291C-98093AF178A4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>86C751E5-4D5A-C527-0A05-82031479442E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idFirm" id="45B2AF38-FF0E-F201-986E-C76C48B0FA93">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:20:03 UTC</createdTime>
+<generatorID>3F01F67D-34DA-5FF5-CEC5-A0025EA08B41</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>94CDAA65-0146-F1C1-398B-CA230231DCAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09FA301B-09EA-58CD-8BC7-043733B2D2AB" name="Odelenje PK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 18:45:35 UTC</createdTime>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A89668B-EA70-1FB8-1626-65A562A0BFDD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD7DE5D7-77D4-5BCF-9688-E0DF076AE076</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

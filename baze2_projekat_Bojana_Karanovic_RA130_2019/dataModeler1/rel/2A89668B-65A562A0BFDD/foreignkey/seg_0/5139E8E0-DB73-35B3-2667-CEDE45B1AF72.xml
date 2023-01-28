@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5139E8E0-DB73-35B3-2667-CEDE45B1AF72" containerWithKeyObject="BDD382F6-9279-868D-8E00-2ED7DAD820D6" localFKIndex="AD0D484D-04A7-0425-3F44-A974A85022D3" name="Racun_Prodavac_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:18 UTC</createdTime>
+<generatorID>A66649A8-A920-1087-171A-62B1D5B3F3B4</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<referredTableLongName>Prodavac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>175C0F0E-B908-D232-DE39-B76B06D60893</referredTableID>
+<keyObject>CF77DBB6-7089-067B-439A-A9F2A7407D33</keyObject>
+<referredKeyID>CF77DBB6-7089-067B-439A-A9F2A7407D33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idRad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B324F0B9-9C52-2028-462C-C1A85163E704" containerWithKeyObject="8F9A7737-A3BB-1489-9934-BB2BAD4E4A64" localFKIndex="F68D2528-54A4-3AC2-117F-3F777983C9FD" name="Sprema_Prostorija_FK">
+<createdBy>Bojana Karanovic</createdBy>
+<createdTime>2023-01-21 20:15:19 UTC</createdTime>
+<generatorID>5C4602A1-8755-A865-E340-7F1EB467E26D</generatorID>
+<ownerDesignName>dataModeler1</ownerDesignName>
+<referredTableLongName>Prostorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E47BC36E-937B-57BF-5B2A-0587DFCE9125</referredTableID>
+<keyObject>ECBDD83C-CF8F-BC29-3E04-335FC4170353</keyObject>
+<referredKeyID>ECBDD83C-CF8F-BC29-3E04-335FC4170353</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPros</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
